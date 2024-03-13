@@ -2,6 +2,9 @@
  line-height: 1.5em;
 }
 
+body{font-family: 'Noto Sans TC', sans-serif;
+}
+ 
 p.redred{
     color:#CD5C5C !important;  
     fomt-size: 40px;
@@ -15,6 +18,4 @@ p.blueblue{
 
 }
 
-body {font-family: 'Noto Sans TC', sans-serif;
-} 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Noto Serif TC', sans-serif; }
+
