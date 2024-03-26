@@ -5,9 +5,13 @@
 body{font-family: 'Noto Sans TC', sans-serif;
 }
  
-p.redred{
+p#redred{
+    background-color: black;
+    color:gainsboro;
+    border: 20px solid red ;
+
     color:#CD5C5C !important;  
-    fomt-size: 40px;
+    font-size: 40px;
     text-align: :left;
     text-indent: 2em ;
     background: red 
