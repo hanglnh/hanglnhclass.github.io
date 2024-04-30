@@ -1,25 +1,11 @@
-{letter-spacing: 0.8px;
- line-height: 1.5em;
+#sideNav {
+    background-image: linear-gradient(to right, #2980b9, #6dd5fa); /* 使用漸變背景 */
+    color: #ffffff; /* 白色文字 */
+    border-right: 3px solid #f1c40f; /* 添加黃色邊框 */
 }
-
-body{font-family: 'Noto Sans TC', sans-serif;
+.navbar-dark .navbar-nav .nav-link {
+    color: #ecf0f1; /* 更改連結文字顏色 */
 }
- 
-p#redred{
-    background-color: black;
-    color:gainsboro;
-    border: 20px solid red ;
-
-    color:#CD5C5C !important;  
-    font-size: 40px;
-    text-align: :left;
-    text-indent: 2em ;
-    background: red 
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f1c40f; /* 滑過時改變顏色 */
 }
-
-p.blueblue{
-    color:#ADD8E6
-
-}
-
-
