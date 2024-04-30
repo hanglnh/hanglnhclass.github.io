@@ -1,11 +1,74 @@
+body {
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+p.redred {
+    background-color: black;
+    color: #CD5C5C; 
+    border: 20px solid red;
+    font-size: 40px;
+    text-align: left; 
+    text-indent: 2em;
+    background: red;
+}
+
+p.blueblue {
+    color: #ADD8E6;
+}
+
+ol.andylist > li:hover {
+    list-style-type: upper-alpha;
+    background-color: #deb43d;
+    color: blue;
+}
+
+table.andytable {
+    width: 80%;
+    background-color: bisque;
+}
+
+table.andytable th {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 10px solid blueviolet;
+}
+
+table.andytable td {
+    text-align: center;
+    border: 10px solid blueviolet;
+}
+
+/* 修正选择器拼写错误 */
+table.andytable tr:nth-child(even) {
+    background-color: yellow;
+    color: black;
+}
+
+/* 修正选择器拼写错误 */
+table.andytable tr:nth-child(odd) {
+    background-color: pink;
+    color: black;
+}
+
 #sideNav {
-    background-image: linear-gradient(to right, #2980b9, #6dd5fa); /* 使用漸變背景 */
-    color: #ffffff; /* 白色文字 */
-    border-right: 3px solid #f1c40f; /* 添加黃色邊框 */
+    background-image: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: #ffffff;
+    border-right: 3px solid #f1c40f;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-    color: #ecf0f1; /* 更改連結文字顏色 */
+    color: #ecf0f1;
 }
+
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: #f1c40f; /* 滑過時改變顏色 */
+    color: #f1c40f;
 }
+
+.box {
+    border: 2px solid #000;
+    padding: 20px;
+}
+
